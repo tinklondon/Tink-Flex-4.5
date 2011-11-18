@@ -18,7 +18,10 @@ SOFTWARE.
 
 package ws.tink.spark.layouts.supportClasses
 {
+	import flash.events.IEventDispatcher;
+	
 	import mx.core.ISelectableList;
+	import mx.core.IVisualElement;
 
 	/**
 	 *  The INavigatorLayout interface indicates that the implementor
@@ -29,8 +32,23 @@ package ws.tink.spark.layouts.supportClasses
 	 *  @playerversion AIR 1.5
 	 *  @productversion Flex 4
 	 */
-	public interface INavigatorLayout
+	public interface INavigatorLayout extends IEventDispatcher
 	{
+		
+		
+		//----------------------------------
+		//  selectedElement
+		//---------------------------------- 
+		
+		/**
+		 *  The item that is selected in the INavigatorLayout.
+		 *  
+		 *  @langversion 3.0
+		 *  @playerversion Flash 10
+		 *  @playerversion AIR 1.5
+		 *  @productversion Flex 4
+		 */
+		function get selectedElement():IVisualElement;
 		
 		
 		//----------------------------------
