@@ -1,0 +1,95 @@
+/* CSS file */
+@namespace "library://ns.tink.ws/flex/spark";
+@namespace s "library://ns.adobe.com/flex/spark";
+
+Accordion
+{
+	skinClass: ClassReference("ws.tink.spark.skins.containers.AccordionSkin");
+}
+
+Accordion s|ButtonBarButton
+{
+	cornerRadius: 0;
+}
+
+Alert
+{
+	skinClass: ClassReference("ws.tink.spark.skins.controls.AlertSkin");
+}
+
+BorderDataNavigator
+{
+	skinClass: ClassReference("ws.tink.spark.skins.controls.BorderDataNavigatorSkin");
+}
+
+CheckBoxBar
+{
+	skinClass: ClassReference("ws.tink.spark.skins.controls.CheckBoxBarSkin");
+}
+
+DataAccordion
+{
+	skinClass: ClassReference("ws.tink.spark.skins.controls.DataAccordionSkin");
+}
+
+DataAccordion s|ButtonBarButton
+{
+	cornerRadius: 0;
+}
+
+DataNavigator
+{
+	skinClass: ClassReference("ws.tink.spark.skins.controls.DataNavigatorSkin");
+}
+
+MenuBar
+{
+	skinClass: ClassReference("ws.tink.spark.skins.controls.MenuBarSkin");
+}
+
+MenuBarItemRenderer
+{
+	skinClass: ClassReference("ws.tink.spark.skins.itemRenderers.DropRightMenuBarItemRendererSkin");
+}
+
+MenuBar MenuBarItemRenderer
+{
+	skinClass: ClassReference("ws.tink.spark.skins.itemRenderers.DropDownMenuBarItemRendererSkin");
+}
+
+MultipleSelectionButtonBar
+{
+	skinClass: ClassReference("ws.tink.spark.skins.controls.MultipleSelectionButtonBarSkin");
+}
+
+Navigator
+{
+	skinClass: ClassReference("ws.tink.spark.skins.containers.NavigatorSkin");
+}
+
+PropertiesList
+{
+	skinClass: ClassReference("ws.tink.spark.skins.controls.PropertiesListSkin");
+}
+
+RadioButtonBar
+{
+	skinClass: ClassReference("ws.tink.spark.skins.controls.RadioButtonBarSkin");
+}
+
+RatingsBar
+{
+	skinClass: ClassReference("ws.tink.spark.skins.controls.RatingsBarSkin");
+}
+
+RatingsBarItemRenderer
+{
+	colors: #cccccc, #999999;
+	selectionColors: #ffff00, #ffaa00;
+	padding: 10;
+}
+
+ValidityVScrollBar
+{
+	skinClass: ClassReference("ws.tink.spark.skins.controls.ValidityVScrollBarSkin");
+}
