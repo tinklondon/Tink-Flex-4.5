@@ -30,7 +30,6 @@
 	<component id="InlineScroller" class="ws.tink.spark.controls.InlineScroller"/>
 	<component id="TimedTextInput" class="ws.tink.spark.controls.TimedTextInput"/>
 	<component id="TimeStepper" class="ws.tink.spark.controls.TimeStepper"/>
-	<component id="ValidityVScrollBar" class="ws.tink.spark.controls.ValidityVScrollBar"/>
 	<component id="VMouseOverStep" class="ws.tink.spark.controls.VMouseOverStep"/>
 	<component id="VPageStep" class="ws.tink.spark.controls.VPageStep"/>
 	<component id="VStep" class="ws.tink.spark.controls.VStep"/>
@@ -46,7 +45,6 @@
 	<component id="PropertyItemRenderer" class="ws.tink.spark.itemRenderers.PropertyItemRenderer"/>
 	<component id="RadioButtonItemRenderer" class="ws.tink.spark.itemRenderers.RadioButtonItemRenderer"/>
 	<component id="RatingsBarItemRenderer" class="ws.tink.spark.itemRenderers.RatingsBarItemRenderer"/>
-	<component id="ValidityItemRenderer" class="ws.tink.spark.itemRenderers.ValidityItemRenderer"/>
 	
 	<!-- layouts -->
 	<component id="AccordionLayout" class="ws.tink.spark.layouts.AccordionLayout"/>
