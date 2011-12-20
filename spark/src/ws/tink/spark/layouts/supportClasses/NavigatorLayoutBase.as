@@ -782,13 +782,16 @@ package ws.tink.spark.layouts.supportClasses
 //				updateSelectedIndex( _proposedSelectedIndex, 0 );
 			}
 			
-			if( useVirtualLayout )
+			if( selectedIndex > -1 )
 			{
-				_selectedElement = target ? target.getVirtualElementAt( selectedIndex ) : null;
-			}
-			else
-			{
-				_selectedElement = target ? target.getElementAt( selectedIndex ) : null;
+				if( useVirtualLayout )
+				{
+					_selectedElement = target ? target.getVirtualElementAt( selectedIndex ) : null;
+				}
+				else
+				{
+					_selectedElement = target ? target.getElementAt( selectedIndex ) : null;
+				}
 			}
 			
 			updateDisplayListBetween();
