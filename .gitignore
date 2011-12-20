@@ -1,5 +1,5 @@
-spark/bin/
-spark/.actionScriptProperties
-spark/.project
-spark/.flexLibProperties
-spark/.settings/
+bin/
+.actionScriptProperties
+.project
+.flexLibProperties
+.settings/
